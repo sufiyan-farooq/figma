@@ -1,0 +1,161 @@
+@font-face {
+    font-family: gilroy ;
+    src: url(image--font/Gilroy-Medium.ttf);
+}
+@font-face {
+    font-family: gilroyblack ;
+    src: url(image--font/Gilroy-ExtraBold.ttf);
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+     padding-top: 20px;
+     padding-bottom: 15px;
+
+
+}
+.header-logo img{
+    display: inline-block;
+    width: 180px;
+    height: 51px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.nav-items a{
+    display: inline-block;
+text-decoration: none;
+padding: 30px;
+padding-top: 40px;
+color: black;
+font-family: gilroy;
+
+
+}
+.nav-items a button{
+    font-size: large;
+    background-color: #75BF7A;
+    color: white;
+    border-color: #75BF7A;
+    padding: 8px 15px;
+    border-radius: 6px;
+    border-bottom: #75BF7A;
+    border-right: #75BF7A;
+    font-family: gilroy;
+}
+@media screen and (max-width: 600px){
+    .nav-items a{
+        display: none;
+    
+    }
+    .header-logo img{
+        width: 60px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .nav-items a{
+        font-size: small;
+    }
+    .header-logo img{
+        width: 150px;
+        height: 40px;
+    }
+    .nav-items a button{
+        font-size: small;
+
+    }
+    
+}
+.title{
+    display: flex;
+}
+
+.web-center{
+  background-color: lightgrey;
+  width: 100%;
+  padding-top: 60px;
+}
+.title-heading h1{
+font-family: gilroyblack;
+font-weight: bolder;
+font-size: 60px;
+margin-left: 50px;
+}
+.title-description p{
+font-size: 24px;
+line-height: 28px;
+font-family: gilroy;
+color: #9E9DA2;
+font-weight: 500;
+margin-left: 50px;
+}
+.title-button{
+    margin-left: 50px;
+    word-spacing: 30px;
+}
+.title-image img{
+    width: 500px;
+  padding-left: 60px;
+  height: 500px;
+}
+
+
+@media screen and (max-width:830px) {
+   .title-heading h1{
+    font-size: 30px;
+    font-family: gilroyblack;
+    font-weight: bold; 
+ text-align: center;
+ margin-left: 0px;
+    
+   } 
+   .title-description p{
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+   }
+   .title-button{
+display: flex;
+justify-content: center;
+margin-left: 0px;
+   }
+.title-image img{
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+}
+
+   .title{
+    display: block;
+ 
+   }
+
+}
+
+@media screen and (max-width:490px) {
+    .title-heading h1{
+        font-size: 30px;
+        text-align: center;
+        margin: 0px;
+        font-weight: bold;
+    }
+    .title-description p{
+        font-size: 14px;
+    }
+    .title-button a{
+        font-size: small;
+        width: 100px;
+    }
+}
