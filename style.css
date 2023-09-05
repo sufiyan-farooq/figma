@@ -32,13 +32,16 @@ body{
 }
 .nav-items a{
     display: inline-block;
-text-decoration: none;
+text-decoration:none;
 padding: 30px;
 padding-top: 40px;
 color: black;
 font-family: gilroy;
+}
 
-
+.nav-items a:hover{ 
+   color: #75BF7A;
+   text-decoration: underline;
 }
 .nav-items a button{
     font-size: large;
@@ -51,15 +54,20 @@ font-family: gilroy;
     border-right: #75BF7A;
     font-family: gilroy;
 }
-@media screen and (max-width: 600px){
+
+.nav-items a button:hover{
+    border-bottom: #559359;
+    border-left: #559359;
+    border-right: #559359;
+    border-color: #559359;
+    background-color: #559359;
+    cursor: pointer;
+}
+@media screen and (max-width:550px) {
     .nav-items a{
-        display: none;
-    
+    display: none;
     }
-    .header-logo img{
-        width: 60px;
-        height: 20px;
-    }
+
 }
 
 @media screen and (max-width: 850px){
@@ -67,8 +75,9 @@ font-family: gilroy;
         font-size: small;
     }
     .header-logo img{
-        width: 150px;
-        height: 40px;
+        width: 120px;
+        height: 33px;
+        margin-top: 20px;
     }
     .nav-items a button{
         font-size: small;
@@ -99,9 +108,12 @@ color: #9E9DA2;
 font-weight: 500;
 margin-left: 50px;
 }
-.title-button{
+.title-button img{
+
     margin-left: 50px;
-    word-spacing: 30px;
+    word-spacing: 10x;
+    width: 200px;
+
 }
 .title-image img{
     width: 500px;
@@ -127,7 +139,6 @@ margin-left: 50px;
    .title-button{
 display: flex;
 justify-content: center;
-margin-left: 0px;
    }
 .title-image img{
     margin: 0px auto;
@@ -154,8 +165,198 @@ margin-left: 0px;
     .title-description p{
         font-size: 14px;
     }
-    .title-button a{
+    .title-button img{
         font-size: small;
         width: 100px;
+        gap: 1px;
+    }
+    .title-image img{
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        margin-left: 42px;
+    
+    }
+    
+}
+
+.input-box{
+ 
+    background-color: #75BF7A;
+    width: 1050px;
+    height: 100px;
+    border-radius: 10px;
+      margin-left: 120px;
+display: flex;
+}
+.description p{
+    color: white;
+    font-family: gilroy;
+    font-size: 19px;
+    display: inline-block;
+    padding-left: 60px;
+    margin-top: 30px;
+
+}
+.input input{
+    font-family:gilroy ;
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: xx-large;
+    padding-left: 20px;
+padding-right: 20px;    
+border-radius: 8px;
+border-color: white;
+border-top: white;
+border-left: #fff;
+    
+}
+.applynow button{
+margin-left: 20px ;
+margin-top: 30px;
+font-weight: bold;
+border-radius: 8px;
+background-color: black;
+color: white;
+border-color: black;
+border-top: black;
+border-left: black;
+padding: 12px;
+font-family: gilroy;
+padding-left: 40px;
+padding-right: 40px;
+
+}
+.applynow button:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-right: #fff;
+    border-bottom: #fff;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width:850px) {
+    .input-box{
+        width: 600px;
+        
+    }
+    .description{
+        font-size: 10px;
+        margin: 0px;
+        padding-left: 0px;
+    }
+    .input input{
+        font-size: large;
+        padding-left: 0px;
+        padding-right: 2px;
+        margin-left: 10px;
+        }
+    .applynow button{
+        margin-left: 15px;
+        padding: 5px;
+        font-size: small;
+        font-weight: 100;
+        
     }
 }
+@media screen and (max-width:490px) {
+    .input-box{
+        width: 250px;
+        display: block;
+        height: 250px;
+        margin-left: 100px;
+        
+    }
+    .description p{
+        font-size: 18px;
+        margin: 10px;
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+    .input input{
+        font-size: large;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 22px;
+        }
+    .applynow button{
+        margin-left: 25px;
+        padding: 8px;
+        font-size: small;
+        font-weight: 100;
+        padding-left: 50px;
+        padding-right: 50px;
+
+        
+    }
+}
+@media screen and (max-width:390px) {
+    .input-box{
+        width: 250px;
+        display: block;
+        height: 250px;
+        margin-left: 70px;
+        
+    }
+    .description p{
+        font-size: 18px;
+        margin: 10px;
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+    .input input{
+        font-size: large;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 22px;
+        }
+    .applynow button{
+        margin-left: 25px;
+        padding: 8px;
+        font-size: small;
+        font-weight: 100;
+        padding-left: 50px;
+        padding-right: 50px;
+
+        
+    }
+}
+.tere-work h1{
+    text-align: center;
+    font-family: gilroyblack;
+    font-size: 60px;
+}
+.tere-work span{
+    color: #75BF7A;
+}
+.tere-para{
+    font-family: gilroy;
+    font-size: xx-large;
+    color: #9E9DA2;
+    text-align: center;
+}
+
+@media screen and (max-width:830px){
+    .tere-work h1{
+        font-size: 40px;
+    }
+    .tere-para p{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:490px){
+    .tere-work h1{
+        font-size: 25px;
+    }
+    .tere-para p{
+        font-size: 12px;
+    }
+}
+
