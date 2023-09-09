@@ -98,6 +98,8 @@ font-family: gilroy;
 }
 .title{
     display: flex;
+
+    justify-content: space-around;
 }
 
 .web-center{
@@ -173,6 +175,13 @@ justify-content: center;
 
 }
 
+@media screen and (max-width:768px) {
+    .mobile_div {
+        margin: 0 auto;
+    }
+}
+
+
 @media screen and (max-width:490px) {
     .title-heading h1{
         font-size: 30px;
@@ -206,7 +215,8 @@ justify-content: center;
     width: 1050px;
     height: 100px;
     border-radius: 10px;
-      margin-left: 120px;
+      /* margin-left: 120px; */
+      margin: 0 auto;
 display: flex;
 }
 .description p{
@@ -393,6 +403,7 @@ padding-right: 40px;
 
 .tere-items{
     display: flex;
+    justify-content: space-between;
 }
 .num-circle img{
     width: 60px;
@@ -400,6 +411,7 @@ padding-right: 40px;
     margin-left: 320px;
     
 }
+
 .heading h1{
     font-family: gilroyblack;
     margin-left: 170px;
@@ -424,42 +436,374 @@ padding-right: 40px;
 
 
 
-.tere-mob{
-    border: 1px solid;
-    width: 600px;
-    height: 400px;
-    color: #75BF7A;
-    border-radius: 400px;
-    background-color: #75BF7A;
-    display: flex;
-    justify-content: center;
-    
-    
+
+.tere-circle img{
+
+    position: absolute;
+    left: 480px;
+    margin-top: 50px;
+
 }
 .tere-mob img{
     width: 250px;
     height: 500px;
-    margin-left: 80px;
+    margin-right: 60px;
+    
 }
 
 
 .num-circle3 img{
     width: 60px;
     height: 60px;
-margin-left: 320px;
+    margin-right: 50px;
+    
+    
+
     
 }
 .heading3 h1{
     font-family: gilroyblack;
-    margin-left: 250px;
+    margin-right: 50px;
     font-size: 28px;
 }
 .caption3 p{
     font-size: 15px;
     color: #9E9DA2;
     font-family: gilroy;
-    margin-left: 180px;
+    margin-right: 50px;
 }
+
+.num-circle4 img{
+    width: 60px;
+    height: 60px;
+    margin-right: 50px;
+    
+
+    
+}
+
+.heading4 h1{
+    font-family: gilroyblack;
+    margin-right: 50px;
+    font-size: 28px;
+}
+
+
+.caption4 p{
+    font-size: 15px;
+    color: #9E9DA2;
+    font-family: gilroy;
+    margin-right: 50px;
+}
+
+@media screen and (max-width:1024px) {
+    .tere-mob img{
+        width: 180px;
+        height: 350px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .tere-circle img{
+        width: 280px;
+        left: 410px;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width:830px) {
+    .tere-items{
+        display: block;
+  
+}
+.tere-circle img{
+    position: absolute;
+    left: 290px;
+}
+
+.num-circle img{
+    margin-left: 400px;
+}
+.heading h1{
+    text-align: center;
+    margin: 0px;
+}
+.caption p{
+    text-align: center;
+    margin: 0px;
+}
+
+
+.num-circle1 img{
+    margin-left: 400px;
+}
+.heading1 h1{
+    text-align: center;
+    margin: 0px;
+}
+.caption1 p{
+    text-align: center;
+    margin: 0px;
+}
+
+
+.num-circle3 img{
+    margin-left: 400px;
+}
+.heading3 h1{
+    text-align: center;
+    margin: 0px;
+}
+.caption3 p{
+    text-align: center;
+    margin: 0px;
+}
+
+.num-circle4 img{
+    margin-left: 400px;
+}
+.heading4 h1{
+    text-align: center;
+    margin: 0px;
+}
+.caption4 p{
+    text-align: center;
+    margin: 0px;
+}
+
+.tere-mob img{
+    margin-left: 340px;
+}
+
+
+
+
+}
+
+
+
+@media screen and (max-width:770px) {
+    .tere-items{
+        display: block;
+  
+}
+.tere-circle img{
+    position: absolute;
+    left: 250px;
+}
+
+.num-circle img{
+    margin-left: 370px;
+}
+.heading h1{
+    text-align: center;
+    margin: 0px;
+}
+.caption p{
+    text-align: center;
+    margin: 0px;
+}
+
+
+.num-circle1 img{
+    margin-left: 400px;
+}
+.heading1 h1{
+    text-align: center;
+    margin: 0px;
+}
+.caption1 p{
+    text-align: center;
+    margin: 0px;
+}
+
+
+.num-circle3 img{
+    margin-left: 370px;
+}
+.heading3 h1{
+    text-align: center;
+    margin: 0px;
+}
+.caption3 p{
+    text-align: center;
+    margin: 0px;
+}
+
+.num-circle4 img{
+    margin-left: 370px;
+}
+.heading4 h1{
+    text-align: center;
+    margin: 0px;
+}
+.caption4 p{
+    text-align: center;
+    margin: 0px;
+}
+
+.tere-mob img{
+    margin-left: 300px;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width:490px) {
+    .tere-items{
+        display: block;
+  
+}
+.tere-circle img{
+    position: absolute;
+    left: 80px;
+}
+
+.num-circle img{
+    margin-left: 190px;
+}
+.heading h1{
+    text-align: center;
+    margin: 0px;
+}
+.caption p{
+    text-align: center;
+    margin: 0px;
+}
+
+
+.num-circle1 img{
+    margin-left: 400px;
+}
+.heading1 h1{
+    text-align: center;
+    margin: 0px;
+}
+.caption1 p{
+    text-align: center;
+    margin: 0px;
+}
+
+
+.num-circle3 img{
+    margin-left: 190px;
+}
+.heading3 h1{
+    text-align: center;
+    margin: 0px;
+}
+.caption3 p{
+    text-align: center;
+    margin: 0px;
+}
+
+.num-circle4 img{
+    margin-left: 190px;
+}
+.heading4 h1{
+    text-align: center;
+    margin: 0px;
+}
+.caption4 p{
+    text-align: center;
+    margin: 0px;
+}
+
+.tere-mob img{
+    margin-left: 130px;
+}
+
+
+
+
+}
+
+
+
+@media screen and (max-width:400px) {
+    .tere-items{
+        display: block;
+  
+}
+.tere-circle img{
+    position: absolute;
+    left: 50px;
+}
+
+.num-circle img{
+    margin-left: 160px;
+}
+.heading h1{
+    text-align: center;
+    font-size: x-large;
+    margin: 0px;
+}
+.caption p{
+    text-align: center;
+    margin: 0px;
+    font-size: 15px;
+}
+
+
+.num-circle1 img{
+    margin-left: 400px;
+}
+.heading1 h1{
+    text-align: center;
+    margin: 0px;
+    font-size: x-large;
+}
+.caption1 p{
+    text-align: center;
+    margin: 0px;
+    font-size: 15px;
+}
+
+
+.num-circle3 img{
+    margin-left: 160px;
+}
+.heading3 h1{
+    text-align: center;
+    margin: 0px;
+    font-size: x-large;
+}
+.caption3 p{
+    text-align: center;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.num-circle4 img{
+    margin-left: 160px;
+}
+.heading4 h1{
+    text-align: center;
+    margin: 0px;
+    font-size: x-large ;
+}
+.caption4 p{
+    text-align: center;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.tere-mob img{
+    margin-left: 100px;
+    
+}
+
+
+
+
+}
+
+
+
+
+
 
 .benefit p{
     font-family: gilroyblack;
@@ -477,7 +821,7 @@ margin-left: 320px;
     height:350px;
     width: 1000px ;
     border-radius: 10px;
-    margin-left: 130px;
+    /* margin-left: 130px; */
     display: flex;
     justify-content: space-between;
     
@@ -520,7 +864,7 @@ margin-left: 320px;
     height:350px;
     width: 1000px ;
     border-radius: 10px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
     display: flex;
     justify-content: space-between;
     
@@ -566,7 +910,7 @@ margin-left: 320px;
     height:350px;
     width: 1000px ;
     border-radius: 10px;
-    margin-left: 130px;
+    /* margin-left: 130px; */
     display: flex;
     justify-content: space-between;
     
@@ -888,7 +1232,7 @@ margin-left: 320px;
     }
     .benefit-image1 img{
         margin-left: 85px;
-        width: 160px;
+        width: 150px;
         height: 160px;
         
     }
@@ -951,8 +1295,8 @@ margin-left: 320px;
     }
     .benefit-image3 img{
         margin-left: 60px;
-        width: 180px;
-        height: 160px;
+        width: 170px;
+        height: 150px;
         
     }
 }
